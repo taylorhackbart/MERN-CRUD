@@ -1,0 +1,12 @@
+
+.logo-button {
+  margin-bottom: 30px;
+}
+.logo {
+  display: block;
+  height: 50%;
+  width: 50%;
+}
+.nav-button{
+  cursor: pointer;
+}

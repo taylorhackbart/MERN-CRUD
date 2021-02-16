@@ -1,0 +1,15 @@
+.home-form-input{
+  display: block;
+  margin: auto;
+  height: 100px;
+  width: auto;
+}
+.home-form-formbtn{
+  height: 30px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+.homepage-text{
+  text-align: center;
+}
