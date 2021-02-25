@@ -4,7 +4,7 @@ import API from "../../utils/API";
 import "./home.css";
 
 function HomePage() {
-  const [state, setState] = useState();
+  const [state, setState] = useState({example: ""});
   const [loading, setLoading] = useState(true);
   const [response, setResponse] = useState();
 
@@ -15,7 +15,7 @@ function HomePage() {
 
   const onSend = () => {
     API.saveExample(state).then((res) => {
-      console.log(res);
+      setState({example: ""})
       const id = res.data._id;
       API.getExample(id).then((res) => {
         setResponse(res.data.example);
@@ -23,6 +23,7 @@ function HomePage() {
       });
     });
   };
+ 
 
   return (
     <div className="container">
@@ -31,11 +32,13 @@ function HomePage() {
         name="example"
         className="home-form-input"
         onChange={handleInputChange}
+        value={state.example}
       />
-      <FormBtn className="home-form-formbtn" onClick={onSend}>
+      <FormBtn className="home-form-formbtn" onClick={onSend} >
         SUBMIT
       </FormBtn>
-      <>{loading === false && <>{response}</>}</>
+      <h4 className="your-text-title"> Your text here: </h4>
+      <>{loading === false && < div className="response-text">{response}</div>}</>
     </div>
   );
 }

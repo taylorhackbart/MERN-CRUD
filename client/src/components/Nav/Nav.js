@@ -14,7 +14,6 @@ function NavBar() {
           <a href="/">
             <button className="nav-button"> HOME </button>
           </a>
-          <button className="nav-button"> LOGIN </button>
         </div>
       </Navbar>
     </>
