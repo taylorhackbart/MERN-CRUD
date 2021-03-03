@@ -1,7 +1,7 @@
 # MERN CRUD TEMPLATE
 
 ## Description
-I have created a MERN CRUD template that pushes a simple text string to a Mongo Database. Once the text has been submitted, the form area clears and the text appears below the text box. It is a simple app that allows users to easily begin their React apps with routing set up to Robo3T(local) and MongoAtlas(deployed)
+I have created a MERN CRUD template that pushes a simple text string to a Mongo Database. Once the text has been submitted, the form area clears and the text appears below the text box. It is a simple app that allows users to easily begin their React apps with routing set up to Robo3T(local) and MongoAtlas(deployed). Feel free to try out my app <a href="https://mern-crud-template.herokuapp.com/" > here </a>
 
 ## Usage
 Below is the basic usage for this app:
