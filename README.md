@@ -7,12 +7,15 @@ I have created a MERN CRUD template that pushes a simple text string to a Mongo 
 Below is the basic usage for this app:
 
 Here you will see the welcome page with a textbox to submit text:
-<img src="https://github.com/taylorhackbart/MERN-CRUD/blob/master/readmeimages/Screen%20Shot%202021-03-03%20at%2011.13.59%20AM.png />
+
+<img src="https://github.com/taylorhackbart/MERN-CRUD/blob/master/readmeimages/Screen%20Shot%202021-03-03%20at%2011.13.59%20AM.png" />
  
 Adding text:
-<img src="https://github.com/taylorhackbart/MERN-CRUD/blob/master/readmeimages/Screen%20Shot%202021-03-03%20at%2011.14.07%20AM.png />
+
+<img src="https://github.com/taylorhackbart/MERN-CRUD/blob/master/readmeimages/Screen%20Shot%202021-03-03%20at%2011.14.07%20AM.png" />
           
 Displaying text:
+
 <img src="https://github.com/taylorhackbart/MERN-CRUD/blob/master/readmeimages/Screen%20Shot%202021-03-03%20at%2011.14.13%20AM.png" />
 
 ## Installation
