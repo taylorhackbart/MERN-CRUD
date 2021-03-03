@@ -20,9 +20,11 @@ module.exports = {
   update: function (req, res) {
     db.Example.findOneAndUpdate(
       { _id: req.params.id } || { location: req.params.location },
-      { $set: {
-        example: req.body.example
-       } },
+      {
+        $set: {
+          example: req.body.example,
+        },
+      },
       { new: true }
     )
       .then((dbModel) => res.json(dbModel))

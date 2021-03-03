@@ -5,7 +5,7 @@ export default {
   getExamples: function() {
     return axios.get("/api/example");
   },
-  // Gets the book with the given id
+  // Gets the Example with the given id
   getExample: function(id) {
     return axios.get("/api/example/" + id);
   },
@@ -16,6 +16,7 @@ export default {
   deleteExample: function(id) {
     return axios.delete("/api/example/" + id);
   },
+  // Updated example data
   updateExample: function (id,data) {
     return axios.put("/api/example/" + id, data)
   },

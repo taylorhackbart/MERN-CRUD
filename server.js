@@ -1,18 +1,10 @@
 const express = require("express");
-// const cors = require("cors")
 const morgan = require("morgan")
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
-// require('dotenv').config()
-// const bodyParser = require('body-parser');
-
-
-// app.use(cors());
 app.use(morgan("dev"))
-
-
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));

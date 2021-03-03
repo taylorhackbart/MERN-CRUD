@@ -12,11 +12,12 @@ function HomePage() {
     const { name, value } = e.target;
     setState({ ...state, [name]: value });
   };
-
+//Saves example to DB
   const onSend = () => {
     API.saveExample(state).then((res) => {
       setState({example: ""})
       const id = res.data._id;
+//Gets example from DB
       API.getExample(id).then((res) => {
         setResponse(res.data.example);
         setLoading(false);
