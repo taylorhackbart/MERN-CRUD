@@ -22,4 +22,4 @@ Displaying text:
 To use this image upload, one must install React and Mongoose. By running npm install in the command line, all dependencies should be installed in the correct package.JSON files to run this app.
 
 ## Questions
-For questions or inquiries, feel free to email me at taylor.hackbart@gmail.com or checkout my linkedIn <a href="https://www.linkedin.com/in/taylorhackbart/" target="_blank"> here </a>
+For questions or inquiries, feel free to email me at taylor.hackbart@gmail.com or checkout my LinkedIn <a href="https://www.linkedin.com/in/taylorhackbart/" rel="noreferrer" target="_blank"> here </a>
