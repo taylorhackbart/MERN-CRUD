@@ -14,6 +14,9 @@ function NavBar() {
           <a href="/">
             <button className="nav-button"> HOME </button>
           </a>
+          <a href="/about">
+            <button className="nav-button"> ABOUT </button>
+          </a>
         </div>
       </Navbar>
     </>

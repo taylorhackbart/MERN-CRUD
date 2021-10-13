@@ -9,15 +9,12 @@ export function Row(props) {
         className="container"
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
+          gridTemplateColumns: "repeat(4, 1fr)",
           gridGap: "10px",
           gridAutoRows: "minMax(100px, auto)",
         }}
       >
-        {console.log(props)}
-        {props.map((x) => {
-          <img src={x} alt="image" />;
-        })}
+       {props.children}
       </div>
     </>
   );
